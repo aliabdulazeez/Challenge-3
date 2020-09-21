@@ -3,3 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+
+}
+
+.container{
+    background-image: url(/images/pattern-curve.svg), url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom, right center;
+    background-size: auto, 400px 400px;
+    width: 100%;
+    max-width: 60rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 5px 15px;
+    height: 500px;
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+    background-image: url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 30rem;
+    height: 15rem;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text p{
+    margin: 15px 30px -15px 0;
+}
+
+.text h4{
+    margin-top: 28px;
+    color: rgb(160, 159, 159);
+
+}
+
+.text h4 span{
+    color: black;
+}
+
+
+.images{
+    width: 250px;
+    height: 300px;
+    
+ 
+}
+#user{
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: -1;
+}
+.slider{
+    max-width: 40%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: -15px auto auto 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    z-index: 100;
+}
+
+.slider img{
+    padding: 0 10%;
+}
+
