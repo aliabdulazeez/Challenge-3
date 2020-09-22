@@ -86,3 +86,35 @@ body{
 .hidden{
    display: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+ .container{
+     max-width: 23rem;
+     flex-direction: column;
+     height: 700px;
+     background-position: left bottom,  50% 5%;
+     background-size: auto, 370px 370px;
+     margin: 20px auto;
+ }
+
+ .text{
+     order: 2;
+     max-width: 20rem;
+     text-align: center;
+ }
+
+ .text p{
+    margin: auto;
+}
+
+
+ .images{
+     order: 1;
+ }
+
+ .slider{
+     max-width: 50%;
+     margin: 0 auto;
+ }
+}
